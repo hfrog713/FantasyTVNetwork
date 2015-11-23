@@ -1,0 +1,531 @@
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+
+.fix {
+clear: both;
+}
+
+ul {
+list-style: none;
+}
+
+/* -------------------------- */
+
+body {
+	
+}
+
+/*homepage*/
+
+#container-home {
+	width:100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.home-top {
+	width:100%;
+	height:440px;
+	background-color:white;
+	display:table;
+}
+
+.container-inside-top {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;	
+}
+
+.container-inside-top div:first-of-type{
+	font-size:43px;
+	color:#636363;
+	margin-bottom:17px;
+}
+
+
+.container-inside-top img{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-bottom:20px;
+}
+
+.container-inside-top article:first-of-type{
+	font-size:21px;
+	color:#acacac;
+	margin-bottom:37px;
+}
+
+.company-slogan {
+	text-align:center;
+	width:660px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:HelveticaNeue;
+	font-size:13px;
+	line-height:20px;
+}
+
+.company-slogan span {
+	color:#b02024;
+}
+
+.home-bottom {
+	width:100%;
+	height:240px;
+	background-image:url(../images/bottom-backround.png);
+	position:fixed;
+	bottom:0px;
+}
+
+.home-bottom div:first-of-type {
+	text-align:center;
+	padding-top:67px;
+	padding-bottom:40px;
+	font-size:32px;
+	color:#636363;
+}
+
+.home-bottom .provider-container {
+	width:516px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.home-bottom ul li {
+	float:left;
+}
+
+.home-bottom ul .button-margin-left {
+	margin-left:15px;
+}
+
+.sign-up {
+	text-align:center;
+	margin-top:32px;
+}
+
+.sign-up a {
+	text-decoration:underline;
+	color:#636363;
+	font-family:HelveticaNeue;
+}
+
+.sign-in {
+	width:100%;
+	height:240px;
+	display:none;
+	z-index:100;
+	position:fixed;
+	bottom:0px;
+	background-color:#3b1f6d;
+}
+
+.sign-in-padding {
+	padding-top:30px;
+}
+
+.sign-in > div:nth-of-type(1) {
+	font-size:30px;
+	color:#ffffff;
+	font-family:HelveticaNeue;
+	text-align:center;
+}
+
+.sign-in .input-container{
+	width: 201px;
+	margin: 0 auto;
+}
+.sign-in input {
+	width:197px;
+	height:30px;
+	padding-left:5px;
+}
+
+.sign-in input:nth-of-type(1){
+	margin-top:27px;
+}
+
+.sign-in input:nth-of-type(2){
+	margin-top:20px;
+}
+
+.sign-in a {
+	text-decoration:none;
+	}
+
+.sign-in-button {
+	height:30px;
+	width:100px;
+	background-image:url(../images/sign-in-button-background.jpg);
+	text-align:center;
+	line-height:30px;
+	color:#ffffff;
+	font-family:HelveticaNeue;
+	font-size:13px;
+	margin:20px auto 0px auto;
+	text-decoration:none;
+}
+
+.back-button {
+	height:18px;
+	line-height:18px;
+	color:white;
+	background-image:url(../images/back-arrow.png);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	position:absolute;
+	left:15px;
+	bottom:12px;
+	font-size:11px;
+}
+
+.back-button:hover {
+	text-decoration:underline;
+}
+
+/*interface*/
+
+.top-banner {
+	height:79px;
+	width:100%;
+	background-image:url(../images/background-top-interface.png);
+}
+
+.logo-container {
+	position:absolute;
+	left:62px;
+	top:29px;
+	font-size:11px;
+	font-family:Helvetica;
+}
+
+.provider-container-interface {
+	position:absolute;
+	right:79px;
+	top:23px;
+}
+
+.interface-container {
+	width:871px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.menu {
+	padding-top:45px;
+	font-size:9px;
+	color:#162a38;
+	margin-bottom:16px;
+}
+
+.menu li {
+	float:left;
+}
+
+.menu li:nth-of-type(1) {
+	padding-right:10px;
+}
+
+.menu li:nth-of-type(2) {
+	padding-right:10px;
+	padding-left:10px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+.menu li:nth-of-type(3) {
+	padding-left:10px;
+}
+
+.date-shift-banner{
+	height:32px;
+	width:871px;
+	background-image:url(../images/date-shift-background.png);
+	text-align:center;
+	position:relative;
+}
+
+.left-arrow {
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding-top:9px;
+	padding-bottom:9px;
+	padding-left:12px;
+	padding-right:12px;
+	border-right:1px solid white;
+}
+
+.date {
+	color:#ffffff;
+	line-height:32px;
+	font-size:13px;
+	font-family:HelveticaNeue;
+}
+
+.right-arrow{
+	position:absolute;
+	right:0px;
+	top:0px;
+	padding-top:9px;
+	padding-bottom:9px;
+	padding-right:12px;
+	padding-left:12px;
+	border-left:1px solid white;
+	
+}
+
+.stats-profile-container{
+	margin-top:15px;
+}
+
+.stats-container {
+	width:615px;
+	height:81px;
+	float:left;
+	color:white;
+	border:1px solid #dfe0e0;
+	border-right:none;
+}
+
+.stats-container .stats-title-container div{
+	float:left;
+	color:#113050;
+}
+
+.stats-container .stats-title-container > div:nth-of-type(1) {
+	width:310px;
+	height:25px;
+	font-size:13px;
+	border-right: 1px solid #dadbdb;
+}
+
+.stats-container .stats-title-container > div:nth-of-type(2){
+	width:304px;;
+	height:25px;
+	font-size:13px;
+}
+
+.stats-container .stats-title-container div .padding-stat-title-offense {
+	padding-left:22px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.stats-container .stats-title-container div .padding-stat-title-pitching {
+	padding-left:40px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+	
+
+.stats-container table tr td {
+	text-align:center;
+	line-height:25px;
+}
+
+.stats-container table tr:nth-of-type(1) {
+	background-color:#0e2e4f;
+	height:25px;
+}
+
+.stats-container .pitching{
+	float:left;
+	width:305px;
+}
+
+.stats-container .pitching tr td {
+	width:56px;
+}
+
+.stats-container .pitching tr:nth-of-type(1){
+	font-size:12px;
+}
+
+.stats-container .pitching tr td:nth-of-type(1){
+	width:41px;
+}
+
+.stats-container .pitching tr td:nth-of-type(8){
+	width:27px;
+}
+
+.stats-container .pitching tr:nth-of-type(2){
+	font-size:14px;
+	color:#898989;
+	
+}
+
+.stats-container .offense{
+	float:left;
+	text-align:center;
+	width:310px;
+}
+
+.stats-container .offense tr:nth-of-type(1){
+	font-size:12px;
+}
+
+.stats-container .offense tr td:nth-of-type(1){
+	width:27px;
+}
+
+.stats-container .offense tr td:nth-of-type(8){
+	width:36px;
+}
+
+.stats-container .offense tr:nth-of-type(2) td:nth-of-type(8){
+	border-right:1px solid #dadbdb;
+}
+
+.stats-container .offense tr:nth-of-type(2){
+	font-size:14px;
+	color:#898989;
+}
+
+.stats-container .offense tr td {
+	width:140px;
+}
+
+.player-profile-container{
+	height:81px;
+	width:253px;
+	background-image:url(../images/player-profile-container.png);
+	float:left;
+	position:relative;
+	border:1px solid #dfe0e0;
+	border-left:none;
+}
+
+.player-picture {
+	position:absolute;
+	bottom:0px;
+	left:4px;
+}
+
+.player-name-team-container {
+	position:absolute;
+	left:80px;
+	top:23px;
+}
+
+.player-name {
+	font-size:15px;
+	color:#fff200;
+}
+
+.player-team {
+	font-size:9px;
+	color:white;
+}
+
+.video-container{
+	float:left;
+	height:395px;
+	width:614px;
+	border-left:1px solid #dfe0e0;
+	border-bottom:1px solid #dfe0e0;
+	border-right:1px solid #dfe0e0;
+	-moz-box-shadow: inset 0 0 7px 2px #dfe0e0;
+-webkit-box-shadow: inset 0 0 7px 2px #dfe0e0;
+box-shadow: inset 0 0 7px 2px #dfe0e0;
+}
+
+.fantasy-team {
+	text-align:center;
+	margin-bottom:12px;
+	font-size:13px;
+	color:#162a38;
+}
+
+.fantasy-team span {
+	font-weight:bold;
+	font-family:HelveticaNeue;
+}
+
+.video-container-padding {
+	padding:18px 14px 38px 14px;
+}
+	
+.video-player{
+	background-color:black;
+	width:588px;
+	height:318px;
+}
+
+.roster-container {
+	float:left;
+	height:395px;
+	width:253px;
+	background-color:white;
+	border-right:1px solid #dfe0e0;
+	border-bottom:1px solid #dfe0e0;
+}
+
+.play-all {
+	width:38px;
+	height:19px;
+	background-image:url(../images/background-play-all.png);
+	position:relative;
+	margin-left:14px;
+	margin-top:8px;
+	margin-bottom:18px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.play-all img {
+	position:absolute;
+	top:3px;
+	left:16px;
+}
+
+.roster-container ul li {
+	height:30px;
+	width:90%;
+	border-bottom:1px solid #f5f5f5 ;
+	line-height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	font-size:13px;
+	color:#808285;
+}
+
+.clicked
+{
+	height:10px;
+	width:90%;
+	border-bottom:1px solid #f5f5f5 ;
+	line-height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	font-size:13px;
+	color:#808285;
+}
+
+.roster-container ul li span:nth-of-type(1) {
+	margin-right:20px;
+}
+
+.roster-container ul li span:nth-of-type(2) {
+	position:absolute;
+	left:32px;
+}
+
+.roster-container ul li:nth-of-type(11) {
+	border-bottom:none
+}
+	
+	
+
+
+
+	
+
+
+
+
